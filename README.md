@@ -1,3 +1,7 @@
+=======
+# orm-benchmark
+test go orm benchmark
+
 2000 times - Insert
 raw: 9.21s 4605024 ns/op 552 B/op 12 allocs/op
 gorm: 12.94s 6472218 ns/op 7612 B/op 159 allocs/op
@@ -31,3 +35,4 @@ raw: 1.05s 522702 ns/op 34704 B/op 1320 allocs/op
 orm: 2.29s 1145430 ns/op 85121 B/op 4287 allocs/op
 xorm: 3.22s 1612216 ns/op 143741 B/op 5983 allocs/op
 gorm: 0.00s 0.00 ns/op 0 B/op 0 allocs/op
+
